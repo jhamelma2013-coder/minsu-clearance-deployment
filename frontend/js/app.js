@@ -1,23 +1,33 @@
-// MinSU Clearance System - Frontend
-const API_URL = "";
-let currentUser = null;
-
-const API = {
-    async call(endpoint, options = {}) {
-        const r = await fetch(`/api${endpoint}`, {
-            ...options,
-            headers: { 'Content-Type': 'application/json' }
-        });
-        return await r.json();
-    },
-    async login(c) { return this.call('/auth/login', { method:'POST', body:JSON.stringify(c) }); },
-    async getStats(uid) { return this.call(`/stats?uid_=${uid}`); },
-    async getClearances(uid) { return this.call(`/clearances/list?uid_=${uid}`); }
-};
-
-function renderApp() {
-    const a = document.getElementById('app');
-    a.innerHTML = `<h1>MinSU Clearance</h1><p>Deployed successfully!</p>`;
-}
-
-renderApp();
+Ly8gTWluU1UgQ2xlYXJhbmNlIFN5c3RlbSAtIEVuaGFuY2VkIEFwcGxpY2F0
+aW9uCi8vIER5bmFtaWMgQVBJIFVSTCAtIGZhbGxiYWNrIHRvIGxvY2FsIGZv
+ciBkZXYKY29uc3QgQVBJX1VSTCA9IHdpbmRvdy5sb2NhdGlvbi5ob3N0bmFt
+ZSA9PT0gJ2xvY2FsaG9zdCcgPyAiaHR0cDovL2xvY2FsaG9zdDozMDAwIiA6
+ICIiOwoKbGV0IGN1cnJlbnRVc2VyID0gbnVsbDsKbGV0IGNvbnN0YW50cyA9
+IHsgb2ZmaWNlczogW10sIGNhbXB1c2VzOiBbXSwgY29sbGVnZXM6IFtdLCBj
+b3Vyc2VzOiBbXSwgeWVhcl9sZXZlbHM6IFtdLCBzZWN0aW9uczogW10gfTsK
+CmNvbnN0IEFQSSA9IHsKICAgIGFzeW5jIGNhbGwoZW5kcG9pbnQsIG9wdGlv
+bnMgPSB7fSkgewogICAgICAgIGNvbnN0IHIgPSBhd2FpdCBmZXRjaChgL2Fw
+aSR7ZW5kcG9pbnR9YCwgeyAuLi5vcHRpb25zLCBoZWFkZXJzOiB7ICdDb250
+ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSB9KTsKICAgICAgICBy
+ZXR1cm4gYXdhaXQ rLmpzb24oKTsKICAgIH0sCiAgICBhc3luYyByZWdpc3Rl
+cihkKSB7IHJldHVybiB0aGlzLmNhbGwoJy9hdXRoL3JlZ2lzdGVyJywgeyBt
+ZXRob2Q6J1BPU1QnLCBib2R5OkpTT04uc3RyaW5naWZ5KGQpIH0pOyB9LAog
+ICAgYXN5bmMgbG9naW4oYykgeyByZXR1cm4gdGhpcy5jYWxsKCcvYXV0aC9s
+b2dpbicsIHsgbWV0aG9kOidQT1NUJywgYm9keTpKU09OLnN0cmluZ2lmeShj
+KSB9KTsgfSwKICAgIGFzeW5jIGdldENvbnN0YW50cygpIHsgcmV0dXJuIHRo
+aXMuY2FsbCgnL2NvbnN0YW50cycpOyB9Cn07CgpmdW5jdGlvbiByZW5kZXJB
+cHAoKSB7CiAgICBjb25zdCBhID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQo
+J2FwcCcpOwogICAgaWYgKCFjdXJyZW50VXNlcikgeyByZW5kZXJMb2dpbigp
+OyByZXR1cm47IH0KICAgIGEuaW5uZXJIVE1MID0gYDxoMT5NaW5TVSBDbGVh
+cmFuY2U8L2gxPjxwPkhlbGxvLCAke2N1cnJlbnRVc2VyLmZ1bGxfbmFtZX08
+L3A+YDsKfQoKZnVuY3Rpb24gcmVuZGVyTG9naW4oKSB7CiAgICBjb25zdCBh
+ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2FwcCcpOwogICAgYS5pbm5l
+ckhUTUwgPSBgCiAgICAgICAgPGRpdiBjbGFzcz0ibG9naW4tYm94Ij4KICAg
+ICAgICAgICAgPGgyPlNpZ24gSW48L2gyPgogICAgICAgICAgICA8Zm9ybSBp
+ZD0ibG9naW5Gb3JtIj4KICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJl
+bWFpbCIgaWQ9ImVtYWlsIiBwbGFjZWhvbGRlcj0iRW1haWwiIHJlcXVpcmVk
+PjxiciA+CiAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0icGFzc3dvcmQi
+IGlkPSJwYXNzIiBwbGFjZWhvbGRlcj0iUGFzc3dvcmQiIHJlcXVpcmVkPjxi
+ciA+CiAgICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9InN1Ym1pdCI+TG9n
+aW48L2J1dHRvbj4KICAgICAgICAgICAgPC9mb3JtPgogICAgICAgIDwvZGl2
+PgogICAgYDsKfQoKcmVuZGVyQXBwKCk7Cg==
