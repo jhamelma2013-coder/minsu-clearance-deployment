@@ -1,10 +1,6 @@
 FROM python:3.11-slim
-
 WORKDIR /app
-
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
 COPY . .
+RUN pip install --no-cache-dir -r backend/requirements.txt
 EXPOSE 8000
-CMD ["python", "server.py"]
+CMD ["python", "backend/server.py"]
