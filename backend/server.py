@@ -1,1 +1,157 @@
-ZnJvbSBmYXN0YXBpIGltcG9ydCBGYXN0QVBJLCBBUElSb3V0ZXIsIEhUVFBFeGNlcHRpb24sIFJlcXVlc3QsIERlcGVuZHMKZnJvbSBmYXN0YXBpLnJlc3BvbnNlcyBpbXBvcnQgRmlsZVJlc3BvbnNlCmZyb20gZG90ZW52IGltcG9ydCBsb2FkX2RvdGVudgpmcm9tIHN0YXJsZXR0ZS5taWRkbGV3YXJlLmNvcnMgaW1wb3J0IENPUlNNaWRkbGV3YXJlCmZyb20gbW90b3IubW90b3JfYXN5bmNpbyBpbXBvcnQgQXN5bmNJT01vdG9yQ2xpZW50CmltcG9ydCBvcwppbXBvcnQgbG9nZ2luZwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKZnJvbSBweWRhbnRpYyBpbXBvcnQgQmFzZU1vZGVsLCBGaWVsZCwgRW1haWxTdHIKZnJvbSB0eXBpbmcgSW1wb3J0IExpc3QsIE9wdGlvbmFsCmltcG9ydCB1dWlkCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lLCB0aW1lem9uZQppbXBvcnQgaHR0cHgKaW1wb3J0IGhhc2hsaWIKaW1wb3J0IGhtYWMKaW1wb3J0IGJhc2U2NAppbXBvcnQgc2VjcmV0cwppbXBvcnQgdXZpY29ybgogClJPT1RfRElSID0gUGF0aChfX2ZpbGVfXykucGFyZW50CmxvYWRfZG90ZW52KFJPT1RfRElSIC8gJy5lbnYnKQoKbW9uZ29fdXJsID0gb3MuZW52aXJvbi5nZXQoJ01PTkdPX1VSTCcsICdtb25nb2RiOi8vbG9jYWxob3N0OjI3MDE3JykKY2xpZW50ID0gQXN5bmNJT01vdG9yQ2xpZW50KAogICAgbW9uZ29fdXJsLAogICAgc2VydmVyU2VsZWN0aW9uVGltZW91dE1TPTUwMDAsCiAgICBjb25uZWN0VGltZW91dE1TPTEwMDAwCikKZGIgPSBjbGllbnRbb3MuZW52aXJvbi5nZXQoJ0RCX05BTUUnLCAnbWluc3VfY2xlYXJhbmNlJyldCgojIFplcm9Cb3VuY2UgQVBJClpFUk9CT1VOQ0VfQVBJX0tFWSA9IG9zLmVudmlyonIuZ2V0KCdaRVJPQk9VTkNFX0FQSV9LRVknLCAnJykKWkVST0JPVU5DRV9BUElfVVJMID0gImh0dHBzOi8vYXBpLnplcm9ib3VuY2UubmV0L3YyL3ZhbGlkYXRlIgoKIyBDcmVhdGUgdGhlIG1haW4gYXBwCmFwcCA9IEZhc3RBUEkodGl0bGU9Ik1pblNVIENsZWFyYW5jZSBTeXN0ZW0iKQoKIyBDcmVhdGUgYSByb3V0ZXIgd2l0aCB0aGUgL2FwaSBwcmVmaXgKYXBpX3JvdXRlciA9IEFQSVJvdXRlcihwcmVmaXg9Ii9hcGkiKQoKIyBDb25maWd1cmUgbG9nZ2luZwpsb2dnaW5nLmJhc2ljQ29uZmlnKGxldmVsPWxvZ2dpbmcuSU5GTykKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgojIENvbnN0YW50cwpPRkZJQ0VTID0gWwogICAgJ1VuaXZlcnNpdHkgTGlicmFyaWFuJywgCiAgICAnR3VpZGFuY2UgQ291bnNlbG9yJywKICAgICdTQVMgRGlyZWN0b3IvQ29vcmRpbmF0b3InLAogICAgJ1N0dWRlbnQgQWZmYWlycy9GaW5hbmNlJywKICAgICdDb2xsZWdlIERlYW4vUHJvZ3JhbSBDaGFpcicsCiAgICAnUmVnaXN0cmFyJwpdCgpDQU1QVVNFUyA9IFsnTU1DJywgJ01CQycsICdNQ0MnXQpDT0xMRUdFUyA9IFsnQ0FBRicsICdDQVMnLCAnQ0JNJywgJ0NDUycsICdDQ0pFJywgJ0NURScsICdJQUJFJywgJ0lGJ10KQ09VUlNFUyA9IFsKICAgICdCU0l0JywgJ0JTSVMnLCAnQlNCaW8nLCAnQlNNYXRoJywgJ0JBUG9sU2NpJywgJ0FCRW5nbGlzaCcsICdCU1BzeWNoJywKICAgICdCU0VEJywgJ0JFRUQnLCAnQlBFZCcsICdCVExFZCcsICdCU05FZCcsCiAgICAnQlNCQScsICdCU09BJywgJ0JTQScsICdCU01BJywKICAgICdCU0NyaW0nLAogICAgJ0JTQ1MnLCAnQlNFTUMnLCAnQUNUJywKICAgICdCU0EtQ3JvcCBTY2llbmNlJywgJ0JTQS1BbmltYWwgU2NpZW5jZScsICdCU0YnLCAnQlNGZScsCiAgICAnQlNFbnRyZXAnLCAnQlNIUk0nLCAnQlNUTScsICdCU0hNJywKICAgICdCU0Zpc2hlcmllcycsICdCRlQnLAogICAgJ0JTQ1BFbCcsICdCU0VFRScsICdCU0NFJywgJ0JTTUUnCl0KWUVBUl9MRVZFTFMgPSBbJzFzdCBZZWFyJywgJzJuZCBZZWFyJywgJzNyZCBZZWFyJywgJzR0aCBZZWFyJ10KU0VDVElPTlMgPSBbJ0YxJywgJ0YyJywgJ0YzJ10KCiMgTW9kZWxzCmNsYXNzIFVzZXJDcmVhdGUoQmFzZU1vZGVsKToKICAgIGVtYWlsOiBFbWFpbFN0cgogICAgcGFzc3dvcmQ6IHN0cgogICAgZnVsbF9uYW1lOiBzdHIKICAgIHJvbGU6IHN0ciA9ICJzdHVkZW50IgogICAgc3R1ZGVudF9pZDogT3B0aW9uYWxbc3RyXSA9IE5vbmUKICAgIG9mZmljZTogT3B0aW9uYWxbc3RyXSA9IE5vbmUKICAgIGNvdXJzZTogT3B0aW9uYWxbc3RyXSA9IE5vbmUKICAgIHllYXJfbGV2ZWw6IE9wdGlvYWxbc3RyXSA9IE5vbmUKICAgIHNlY3Rpb246IE9wdGlvbmFsW3N0cl0gPSBOb25lCiAgICBjYW1wdXM6IE9wdGlvbmFsW3N0cl0gPSBOb25lCiAgICBjb2xsZWdlOiBPcHRpb25hbFtzdHJdID0gTm9uZQoKY2xhc3MgVXNlckxvZ2luKEJhc2VNb2RlbCk6CiAgICBlbWFpbDogRW1haWxTdHIKICAgIHBhc3N3b3JkOiBzdHIKCmNsYXNzIFVzZXJSZXNwb25zZShCYXNlTW9kZWwpOgogICAgaWQ6IHN0cgogICAgZW1haWw6IHN0cgogICAgZnVsbF9uYW1lOiBzdHIKICAgIHJvbGU6IHN0cgogICAgc3R1ZGVudF9pZDogT3B0aW9uYWxbc3RyXSA9IE5vbmUKICAgIG9mZmljZTogT3B0aW9uYWxbc3RyXSA9IE5vbmUKICAgIGNvdXJzZTogT3B0aW9uYWxbc3RyXSA9IE5vbmUKICAgIHllYXJfbGV2ZWw6IE9wdGlvYWxbc3RyXSA9IE5vbmUKICAgIHNlY3Rpb246IE9wdGlvbmFsW3N0cl0gPSBOb25lCiAgICBjYW1wdXM6IE9wdGlvbmFsW3N0cl0gPSBOb25lCiAgICBjb2xsZWdlOiBPcHRpb25hbFtzdHJdID0gTm9uZQogICAgZW1haWxfdmVyaWZpZWQ6IGJvb2wgPSBGYWxzZQoKY2xhc3MgQ2xlYXJhbmNlQ3JlYXRlKEJhc2VNb2RlbCk6CiAgICBzZW1lc3Rlcjogc3RyCiAgICBhY2FkZW1pY195ZWFyOiBzdHIKCmNsYXNzIEVtYWlsVmVyaWZpY2F0aW9uKEJhc2VNb2RlbCk6CiAgICBlbWFpbDogRW1haWxTdHIKICAgIGNvZGU6IHN0cgoKIyBIZWxwZXJzCmRlZiBoYXNoX3Bhc3N3b3JkKHA6IHN0cikgLT4gc3RyOgogICAgcmV0dXJuIGhhc2hsaWIuc2hhMjU2KHAuZW5jb2RlKCkpLmhleGRpZ2VzdCgpCgpkZWYgdmVyaWZ5X3Bhc3N3b3JkKHA6IHN0ciwgaGFzaGVkOiBzdHIpIC0+IGJvb2w6CiAgICByZXR1cm4gaGFzaF9wYXNzd29yZChwKSA9PSBoYXNoZWQKCmRlZiBnZW5lcmF0ZV91dWlkKCk6CiAgICByZXR1cm4gc3RyKHV1aWQudXVpZDQoKSkKCmRlZiBnZW5lcmF0ZV92ZXJpZmljYXRpb25fY29kZSgpOgogICAgcmV0dXJuICcnLmpvaW4oW3N0cihzZWNyZXRzLnJhbmRiZWxvdygxMCkpIGZvciBfIGluIHJhbmdlKDYpXSkKCiMgQXV0aCBSb3V0ZXMKQGFwaV9yb3V0ZXIucG9zdCgiL2F1dGgvcmVnaXN0ZXIiKQphc3luYyBkZWYgcmVnaXN0ZXIodWQ6IFVzZXJDcmVhdGUpOgogICAgaWYgdWQucm9sZSAhPSAic3R1ZGVudCI6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbihzdGF0dXNfY29kZT00MDMsIGRldGFpbD0iT25seSBzdHVkZW50IHJlZ2lzdHJhdGlvbiIpCiAgICAKICAgIGV4ID0gYXdhaXQgZGIudXNlcnMuZmluZF9vbmUoeyJlbWFpbCI6IHVkLmVtYWlsfSkKICAgIGlmIGV4OgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAwLCBkZXRhaWw9IkVtYWlsIGV4aXN0cyIpCgogICAgdWlkID0gZ2VuZXJhdGVfdXVpZCgpCiAgICB2ID0gZ2VuZXJhdGVfdmVyaWZpY2F0aW9uX2NvZGUoKQogICAgZG9jID0gewogICAgICAgICJpZCI6IHVpZCwgImVtYWlsIjp1ZC5lbWFpbCwgInBhc3N3b3JkX2hhc2giOmhhc2hfcGFzc3dvcmQodWQucGFzc3dvcmQpLAogICAgICAgICJmdWxsX25hbWUiOnVkLmZ1bGxfbmFtZSwgInJvbGUiOnVkLnJvbGUsICJzdHVkZW50X2lkIjp1ZC5zdHVkZW50X2lkLAogICAgICAgICJjYW1wdXMiOnVkLmNhbXB1cywgImNvbGxlZ2UiOnVkLmNvbGxlZ2UsICJjb3Vyc2UiOnVkLmNvdXJzZSwKICAgICAgICAieWVhcl9sZXZlbCI6dWQueWVhcl9sZXZlbCwgInNlY3Rpb24iOnVkLnNlY3Rpb24sICJlbWFpbF92ZXJpZmllZCI6RmFsc2UsCiAgICAgICAgInZlcmlmaWNhdGlvbl9jb2RlIjp2,ICJjcmVhdGVkX2F0IjpkYXRldGltZS5ub3codGltZXpvbmUudXRjKS5pc29mb3JtYXQoKQogICAgfQogICAgYXdhaXQgZGIudXNlcnMuaW5zZXJ0X29uZShkb2MpCiAgICByZXR1cm4geyJzdWNjZXNzIjpUcnVlLCAidXNlciI6eyJpZCI6dWlkLCAiZW1haWwiOnVkLmVtYWlsfSwgInZlcmlmaWNhdGlvbl9jb2RlIjp2fQoKQGFwaV9yb3V0ZXIucG9zdCgiL2F1dGgvbG9naW4iKQphc3luYyBkZWYgbG9naW4oYzogVXNlckxvZ2luik6CiAgICB1ID0gYXdhaXQgZGIudXNlcnMuZmluZF9vbmUoeyJlbWFpbCI6IGMuZW1haWx9KQogICAgaWYgbm90IHUgb3Igbm90IHZlcmlmeV9wYXNzd29yZChjLnBhc3N3b3JkLCB1WyJwYXNzd29yZF9oYXNoIl0pOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDAxLCBkZXRhaWw9IkludmFsaWQgY3JlZGVudGlhbHMiKQogICAgCiAgICByZXR1cm4gewogICAgICAgICJzdWNjZXNzIjogVHJ1ZSwKICAgICAgICAidXNlciI6IHsKICAgICAgICAgICAgImlkIjogdVsiaWQiXSwKICAgICAgICAgICAgImVtYWlsIjogdVsiZW1haWwiXSwKICAgICAgICAgICAgImZ1bGxfbmFtZSI6IHVbImZ1bGxfbmFtZSJdLAogICAgICAgICAgICAicm9sZSI6IHVbInJvbGUiXSwKICAgICAgICAgICAgInN0dHVkZW50X2lkIjogdS5nZXQoInN0dHVkZW50X2lkIikKICAgICAgICB9CiAgICB9CgpAYXBpX3JvdXRlci5nZXQoIi9zdGF0cyIpCmFzeW5jIGRlZiBnZXRfc3RhdHModWlkOiBzdHIpOgogICAgdCA9IGF3YWl0IGRiLmNsZWFyYW5jZXMuY291bnRfZG9jdW1lbnRzKHsic3R1ZGVudF9pZCI6dWlkfSkKICAgIHAgPSBhd2FpdCBkYi5jbGVhcmFuY2VzLmNvdW50X2RvY3VtZW50cyh7InN0dHVkZW50X2lkIjp1aWQsICJvdmVyYWxsX3N0YXR1cyI6InBlbmRpbmcifSkKICAgIGEgPSBhd2FpdCBkYi5jbGVhcmFuY2VzLmNvdW50X2RvY3VtZW50cyh7InN0dHVkZW50X2lkIjp1aWQsICJvdmVyYWxsX3N0YXR1cyI6ImFwcHJvdmVkIn0pCiAgICByID0gYXdhaXQgZGIuY2xlYXJhbmNlcy5jb3VudF9kb2N1bWVudHMKeyJzdHR1ZGVudF9pZCI6dWlkLCAib3ZlcmFsbF9zdGF0dXMiOiJyZWplY3RlZCJ9KQogICAgcmV0dXJuIHsidG90YWwiOnQsICJwZW5kaW5nIjpwLCAiYXBwcm92ZWQiOmEsICJyZWplY3RlZCI6cn0KCkBhcGlfcm91dGVyLmdldCgiL2NsZWFyYW5jZXMvbGlzdCIpCmFzeW5jIGRlZiBsaXN0X2NsZWFyYW5jZXModWlkOiBzdHIpOgogICAgY2xzID0gYXdhaXQgZGIuY2xlYXJhbmNlcy5maW5kKHsic3R0dWZlbnRfaWQiOnVpZH0sIHsiX2lkIjogMH0pLnRvX2xpc3QoMTAwKQogICAgcmV0dXJuIHsiY2xlYXJhbmNlcyI6Y2xzfQoKQGFwaV9yb3V0ZXIucG9zdCgiL2NsZWFyYW5jZXMvY3JlYXRlIikKYXN5bmMgZGVmIGNyZWF0ZV9jbGVhcmFuY2UoZDogQ2xlYXJhbmNlQ3JlYXRlLCB1aWQ6IHN0cik6CiAgICB1ID0gYXdhaXQgZGIudXNlcnMuZmluZF9vbmUoeyJpZCI6dWlkfSkKICAgIGlmIG5vdCB1OiByYWlzZSBIVFRQRXhjZXB0aW9uKDQwNCkKICAgIGNpZCA9IGdlbmVyYXRlX3V1aWQoKQogICAgYXBwID0gW3sib2ZmaWNlIjpvLCAic3RhdHVzIjoicGVuZGluZyJ9IGZvciBvIGluIE9GRklDRVNdCiAgICBkb2MgPSB7CiAgICAgICAgImlkIjpjaWQsICJzdHR1ZGVudF9pZCI6dWlkLCAic3R1ZGVudF9uYW1lIjp1WyJmdWxsX25hbWUiXSwKICAgICAgICAic2VtZXN0ZXIiOmQuc2VtZXN0ZXIsICJhY2FkZW1pY195ZWFyIjpkLmFjYWRlbWljX3llYXIsCiAgICAgICAgIm92ZXJhbGxfc3RhdHVzIjoicGVuZGluZyIsICJhcHByb3ZhbHMiOmFwcCwKICAgICAgICAiY3JlYXRlZF9hdCI6ZGF0ZXRpbWUubm93KHRpbWV6b25lLnV0YykuaXNvZm9ybWF0KCkKICAgIH0KICAgIGF3YWl0IGRiLmNsZWFyYW5jZXMuaW5zZXJ0X29uZShkb2MpCiAgICByZXR1cm4geyJzdWNjZXNzIjpUcnVlLCAiaWQiOmNpZH0KCkBhcGlfcm91dGVyLmdldCgiL2NvbnN0YW50cyIpCmFzeW5jIGRlZiBnZXRfY29uc3RhbnRzKCk6CiAgICByZXR1cm4gewogICAgICAgICJvZmZpY2VzIjogT0ZGSUNFUywgImNhbXB1c2VzIjogQ0FNUFVTRVMsICJjb2xsZWdlcyI6IENPTExFR0VTLAogICAgICAgICJjb3Vyc2VzIjogQ09VUlNFUywgInllYXJfbGV2ZWxzIjogWUVBUl9MRVZFTFMsICJzZWN0aW9ucyI6IFNFQ1RJT05TCiAgICB9CgphcHAuaW5jbHVkZV9yb3V0ZXIoYXBpX3JvdXRlcikKCmFwcC5hZGRfbWlkZGxld2FyZShDT1JTTWlkZGxld2FyZSwgYWxsb3dfb3JpZ2lucz1bIioiXSwgYWxsb3dfbWV0aG9kcz1bIioiXSwgYWxsb3dfaGVhZGVycz1bIioiXSkKCmZyb20gZmFzdGFwaS5zdGF0aWNmaWxlcyBpbXBvcnQgU3RhdGljRmlsZXMKZnJvbnRlbmRfZGlyID0gUGF0aChfX2ZpbGVfXykucGFyZW50LnBhcmVudCAvICJmcm9udGVuZCIKCmlmIGZyb250ZW5kX2Rpci5leGlzdHMoKToKICAgIGFwcC5tb3VudCgiL2NzcyIsIFN0YXRpY0ZpbGVzKGRpcmVjdG9yeT1mcm9udGVuZF9kaXIgLyAiY3NzIiksIG5hbWU9ImNzcyIpCiAgICBhcHAubW91bnQoIi9qcyIsIFN0YXRpY0ZpbGVzKGRpcmVjdG9yeT1mcm9udGVuZF9kaXIgLyAianMiIiwgbmFtZT0ianMiKQogICAgYXBwLm1vdW50KCIvaW1hZ2VzIiwgU3RhdGljRmlsZXMoZGlyZWN0b3J5PWZyb250ZW5kX2RpciAvICJpbWFnZXMiIiwgbmFtZT0iaW1hZ2VzIikKCkBhcHAuZ2V0KCIvIikKYXN5bmMgZGVmIHJvb3QoKToKICAgIHJldHVybiBGaWxlUmVzcG9uc2UoZnJvbnRlbmRfZGlyIC8gImluZGV4Lmh0bWwiKQoKaW1wb3J0IHV2aWNvcm4KaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjogCiAgICBwb3J0ID0gaW50KG9zLmVudmlyb24uZ2V0KCJQT1JUIiwgODAwMCkpCiAgICB1dmljb3JuLnJ1bihhcHAsIGhvc3Q9IjAuMC4wLjAiLCBwb3J0PXBvcnQpCg==
+from fastapi import FastAPI, APIRouter, HTTPException, Request, Depends
+from fastapi.responses import FileResponse
+from dotenv import load_dotenv
+from starlette.middleware.cors import CORSMiddleware
+from motor.motor_asyncio import AsyncIOMotorClient
+import os
+import logging
+from pathlib import Path
+from pydantic import BaseModel, Field, EmailStr
+from typing import List, Optional
+import uuid
+from datetime import datetime, timezone
+import httpx
+import hashlib
+import hmac
+import base64
+import secrets
+ 
+ROOT_DIR = Path(__file__).parent
+loud_dotenv(ROOT_DIR / '.env')
+
+mongo_url = os.environ.get('MONGO_URL', 'mongodb://localhost:27017')
+client = AsyncIOMotorClient(
+    mongo_url,
+    serverSelectionTimeoutMS=5000,
+    connectTimeoutMS=10000
+)
+db = client[os.environ.get('DB_NAME', 'minsu_clearance')]
+ZEROBOUNCE_API_KEY = os.environ.get('ZEROBOUNCE_API_KEY', '')
+ZEROBOUNCE_API_URL = "https://api.zerobounce.net/v2/validate"
+
+app = FastAPI(title="MinSU Clearance System")
+api_router = APIRouter(prefix="/api")
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+OFFICES = ['University Librarian', 'Guidance Counselor', 'SAS Director/Coordinator', 'Student Affairs/Finance', 'College Dean/Program Chair', 'Registrar']
+CAMPUSES = ['MMS', 'MBC', 'MCC']
+COLLEGES = ['CAAF', 'CAS', 'CBM', 'CCS', 'CCJE', 'CTE', 'IABE', 'IF']
+COURSES = ['BSIT', 'BSIS', 'BSBio', 'BSMath', 'BAPolSci', 'ABEnglish', 'BSPsych', 'BSED', 'BEED', 'BPEd', 'BTLEd', 'BSNEd', 'BSBA', 'BSOA', 'BSA', 'BSMA', 'BSCrim', 'BSCS', 'BSEMC', 'ACT', 'BSA-Crop Science', 'BSA-Animal Science', 'BSF', 'BSFi', 'BSEntrep', 'BSHRM', 'BSTM', 'BSHM', 'BSFisheries', 'BFT', 'BSCPEl', 'BSEE', 'BSCE', 'BSME']
+YEAR_LEVELS = ['1st Year', '2nd Year', '3rd Year', '4th Year']
+SECTIONS = ['F1', 'F2', 'F3']
+
+class UserCreate(BaseModel):
+    email: EmailStr
+    password: str
+    full_name: str
+    role: str = "student"
+    student_id: Optional[str] = None
+    office: Optional[str] = None
+    course: Optional[str] = None
+    year_level: Optional[strm = None
+    section: Optional[str] = None
+    campus: Optional[str] = None
+    college: Optional[str] = None
+
+class UserLogin(BaseModel):
+    email: EmailStr
+    password: str
+
+class UserResponse(BaseModel):
+    id: str
+    email: str
+    full_name: str
+    role: str
+    sttudent_id: Optional[str] = None
+    office: Optional[str] = None
+    course: Optionaj[str] = None
+    year_level: Optional[str] = None
+    section: Optioal[str] = None
+    campus: Optional[str] = None
+    college: Optional[str] = None
+    email_verified: bool = False
+
+class ClearanceCreate(BaseModel):
+    semester: str
+    academic_year: str
+
+class ClearanceProcess(BaseModel):
+    action: str
+    comments: Optional[str] = None
+
+class EmailVerification(BaseModel):
+    email: EmailStr
+    code: str
+
+def hash_password(p): return hashlib.sha256(p.encode()).hexdigest()
+def generate_uuid(): return str(uuid.uuid4())
+def generate_verification_code(): return ''.join([str(secrets.randbelow(10)) for _ in range(6)])
+
+async def validate_email(email):
+    if not ZEROBOUNCE_API_KEY; return {"valid":True}
+    try:
+        async with httpx.AsyncClient(timeout=30) as c:
+            r = await c.get(zEROBOUNCE_API_URL, params={"api_key":ZEROBOUNCE_API_KEY, "email":email})
+            d = r.json()
+            if d.get("status") == "valid": return {"valid":True}
+            elif d.get("status") in ["invalid", "spamtrap", "abuse", "do_not_mail"]: return {"valid":False, "message": d["status"]}
+        return {"valid":True}
+    except: return {"valid":True}
+
+@api_router.post("/auth/register")
+async def register(ud: UserCreate):
+    if ud.role != "student": raise HTTPException(403, detail="Only student registration")
+    ex = await db.users.find_one({"email":ud.email})
+    if ex: raise HTTPException(400, detail="Email exists")
+    v = generate_verification _code()
+    user_id = generate_uuid()
+    doc = {"id":user_id, "email":ud.email, "password_hash":hash_password(ud.password), "full_name":ud.full_name, "role":ud.role, "student_id":ud.student_id, "campus":ud.campus, "college":ud.college, "course":ud.course, "year_level":ud.year_level, "section":ud.section, "email_verified":False, "verification_code":v, "created_at":datetime.now(timezone.utc).isoformat()}
+    await ub.users.insert_one(doc)
+    return {"success":True, "user":{"id":uid, "email":ud.email}, "verification_code":v}
+
+@api_router.post("/auth/verify-email")
+async def verify_email(d: EmailVerification"):
+    u = await db.users.find_one({"email":d.email})
+    if not u: raise HTTPException(404)
+    if u.get("verificatiol_code")
+    await db.users.update_one({)email":d.email}, {"$set":{"email_verified":True}})
+    return {"success":True }
+
+@api_router.post("/auth/login")
+async def login(c: UserLogin):
+    u = await db.users.find_one({"email":c.email})
+    if not u or hash_password(c.password) != u.get("password_hash"): raise HTTPException(401)
+    return {"success":True, "user":u}
+
+@api_router.get("/constants")
+async def get_constants():
+    return {"offices":OFFICES, "campuses":CAMPUSES, "colleges":COLLEGES, "courses":COURSES, "year_levels":YEAR_LEVELS, "sections":SECTIONS}
+
+@api_router.get("/stats"")
+async def get_stats(uid: str):
+    t = await db.clearances.count_documents
+{"student_id":uid})
+    return {"total":t}
+
+@api_router.get("/clearances/list")
+async def list_clearances(uid: str):
+    cls = await db.clearances.find({"student_id":uid}, {"_id": 0}).to_list(100)
+    return {"clearances":cls}
+
+App.include_router(api_router)
+
+from fastapi.staticfiles import StaticFiles
+frontend_dir = Path(__file__).parent.parent / "frontend"
+if frontend_dir.exists():
+    app.mount("/css", StaticFiles(directory=frontend_dir / "css"), name="css")
+    app.mount("/js", StaticFiles(directory=frontend_dir / "js"", name="js")
+    app.mount("/images", StaticFiles(directory=frontend_dir / "images"", name="images")
+
+@app.get("/")
+async def root(): return FileResponse(frontend_dir / "index.html")
+
+import uvicorn
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
